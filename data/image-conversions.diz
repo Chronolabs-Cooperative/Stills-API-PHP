@@ -1,0 +1,5 @@
+jpg=jpg,65
+jpeg=jpg,65
+png=png,65
+bmp=jpg,65
+gif=png,45

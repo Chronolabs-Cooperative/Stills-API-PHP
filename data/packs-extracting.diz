@@ -1,0 +1,15 @@
+7z||7z x -y -o%path %pack
+zip||unzip x -o %path %pack 
+rar||rar x -y %pack %path
+zoo||zoo xO %pack %path
+ace||xarchiver -x --extract-to=%path %pack
+exe||xarchiver -x --extract-to=%path %pack
+iso||xarchiver -x --extract-to=%path %pack
+tar||xarchiver -x --extract-to=%path %pack
+tar.Z||xarchiver -x --extract-to=%path %pack
+tar.7z||xarchiver -x --extract-to=%path %pack
+tar.gz||xarchiver -x --extract-to=%path %pack
+tar.bz2||xarchiver -x --extract-to=%path %pack
+tar.xz||xarchiver -x --extract-to=%path %pack
+ear||xarchiver -x --extract-to=%path %pack
+war||xarchiver -x --extract-to=%path %pack
